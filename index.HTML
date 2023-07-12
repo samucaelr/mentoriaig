@@ -1,39 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="shortcut icon" href="/WhatsApp Image 2023-07-06 at 18.07.22.jpeg" type="image/x-icon">
+  <link rel="shortcut icon" href="/mentoriaig/Logo.jpeg" type="image/x-icon">
 
   <title>Mentoria Insta Pro</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="/mentoriaig/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
 </head>
 <body>
   <header>
-    <h1>Mentoria Insta Pro</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Início</a></li>
-        <li><a href="#">Produtos</a></li>
-        <li><a href="#">Carrinho</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1>Mentoria Insta Pro</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section class="produto">
-      <img src="/WhatsApp Image 2023-07-06 at 18.07.22.jpeg" alt="Logo da Mentoria">
-      <h2>Mentoria Insta Pro</h2>
-      <p>✏️ Aprenda tudo o que você precisa para ter um Instagram de sucesso!</p>
-      <p class="preco">R$ 249,99</p>
-      <button>Adicionar ao Carrinho</button>
+    <section id="inicio" class="banner">
+      <div class="container">
+        <h1>Domine o Instagram</h1>
+        <img src="/mentoriaig/Logo.jpeg" alt="logo mentoria" id="logo">
+        <h2>✏️ Aprenda tudo o que você precisa para ter um Instagram de sucesso!</h2>
+        <a href="#inscricao" class="btn" href="#" target="_blank" >Inscreva-se</a>
+      </div>
     </section>
 
-    <!-- Repita a seção do produto para cada item que deseja exibir -->
+    <section id="sobre" class="sobre">
+      <div class="container">
+        <h2>Sobre a Mentoria</h2>
+        <p>A mentoria sobre o Instagram é um programa completo para ajudar você a aproveitar todo o potencial dessa poderosa plataforma de mídia social. Com a orientação de especialistas, você aprenderá estratégias eficazes para crescer sua presença no Instagram, criar conteúdo de qualidade e utilizar recursos avançados para obter resultados reais.</p>
+      </div>
+    </section>
+
+    <section id="depoimentos" class="depoimentos">
+      <div class="container">
+        <h2>Depoimentos de Clientes</h2>
+        <div class="depoimento">
+          <img src="foto-cliente1.jpg" alt="Cliente 1">
+          <p>"A mentoria me ajudou a transformar minha conta do Instagram. Agora tenho mais seguidores, engajamento e estou alcançando meu público-alvo de forma eficaz. Recomendo!"</p>
+          <p class="nome-cliente">- Cliente 1</p>
+        </div>
+
+        <div class="depoimento">
+          <img src="foto-cliente2.jpg" alt="Cliente 2">
+          <p>"Aprendi estratégias valiosas e dicas práticas para melhorar minha presença no Instagram. A mentoria foi um investimento que valeu a pena!"</p>
+          <p class="nome-cliente">- Cliente 2</p>
+        </div>
+
+        <!-- Adicione mais depoimentos aqui -->
+
+      </div>
+    </section>
+    <section id="contato" class="contato">
+      <div class="container">
+        <h2>Sobre a Mentoria</h2>
+        <p>A mentoria sobre o Instagram é um programa completo para ajudar você a aproveitar todo o potencial dessa poderosa plataforma de mídia social. Com a orientação de especialistas, você aprenderá estratégias eficazes para crescer sua presença no Instagram, criar conteúdo de qualidade e utilizar recursos avançados para obter resultados reais.</p>
+      </div>
+    </section>
 
   </main>
 
   <footer>
-    <p>&copy;Mayara Rezende 2023 . Todos os direitos reservados.</p>
+    <div class="container">
+      <p>&copy; 2023 Mentoria Instagram. Todos os direitos reservados.</p>
+    </div>
   </footer>
 </body>
 </html>
